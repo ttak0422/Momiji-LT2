@@ -1,0 +1,9 @@
+{
+    "nixEnvSelector.nixShellConfig": "${workspaceRoot}/shell.nix",
+    "FSharp.useSdkScripts": true,
+    "FSharp.fsacRuntime": "netcore",
+    "FSharp.fsiExtraParameters": [
+        "--langversion:preview"
+    ],
+    "python.pythonPath": "/usr/bin/python3"
+}
